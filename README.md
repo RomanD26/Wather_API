@@ -1,4 +1,4 @@
-# MVP (minimum viable product) приложение "Wather API"
+# MVP `(minimum viable product)` приложение "Wather API"
 
 ## Описание
 
@@ -16,20 +16,21 @@ API с сайта [openweathermap](https://openweathermap.org/api).
 
 ```js
   {coord: {…}, weather: Array(1),
-  base: 'stations', main: {…}, visibility: 10000, …}base: "stations"
-  clouds: {all: 6}
-  cod: 200
-  coord: {lon: 31.6067, lat: 57.1237}
-  dt: 16123459007
-  id: 524894
-  main: {temp: -10.59, feels_like: -14.54, temp_min: -13.18, temp_max: -7.81, pressure: 1028, …}
-  name: "Москва"
-  sys: {type: 2, id: 47884, country: 'RU', sunrise: 163809, sunset: 163637}
-  timezone: 10800
-  visibility: 10000
-  weather: [{…}]
-  wind: {speed: 1.86, deg: 13, gust: 2.86}
-  [[Prototype]]: Object
+    base: 'stations', main: {…}, visibility: 10000, …}base: "stations"
+    clouds: {all: 6}
+    cod: 200
+    coord: {lon: 31.6067, lat: 57.1237}
+    dt: 16123459007
+    id: 524894
+    main: {temp: -10.59, feels_like: -14.54, temp_min: -13.18, temp_max: -7.81, pressure: 1028, …}
+    name: "Москва"
+    sys: {type: 2, id: 47884, country: 'RU', sunrise: 163809, sunset: 163637}
+    timezone: 10800
+    visibility: 10000
+    weather: [{…}]
+    wind: {speed: 1.86, deg: 13, gust: 2.86}
+    [[Prototype]]: Object
+  }
 ```
 
 В полученном объекте выбираются необходимые поля и выводятся на страницу.
